@@ -1,0 +1,16 @@
+[package]
+name = "scope-ui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+imgui = {version = "0.12.0", features = ["docking"]} 
+imgui-glium-renderer = "0.12.0"
+imgui-winit-support = "0.12.0"
+glium = "0.34.0"
+serialport = "4.3.0"
+copypasta = "0.10.1"
+splines = "4.3.1"
+regex = "1.10.4"
+mint = "0.5.9"
+ndarray = "0.15.6"
