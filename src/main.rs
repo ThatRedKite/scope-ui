@@ -202,7 +202,7 @@ fn main() {
         baudrate: 9600,
     }));
 
-    let confix_mutex_guard: Arc<Mutex<CaptureConfig>> = Arc::clone(&config_mutex);
+    let config_mutex_guard: Arc<Mutex<CaptureConfig>> = Arc::clone(&config_mutex);
 
     
     // Data Capture thread
